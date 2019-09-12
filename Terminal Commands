@@ -1,4 +1,5 @@
 /*Follow th next instructions*/
+/*It applies only for Mysql 8.016*/
 
 /* 1) First of all, there is nothing I am more passioned and is writting code, it makes me feel alive*/
 
@@ -19,3 +20,6 @@ Mysql -u root
 update user set authentication_string='test' where user='root';
 
 /*test would be the password*/
+
+
+GRANT ALL PRIVILEGES ON dbname.* to username@'%' IDENTIFIED BY 'password';
