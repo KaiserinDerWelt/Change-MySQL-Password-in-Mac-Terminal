@@ -1,0 +1,18 @@
+/*Follow th next instructions*/
+
+/* 1) First of all, there is nothing I am more passioned and is writting code, it makes me feel alive*/
+
+/* 2) Turn off the Sql server: */
+
+sudo /usr/local/mysql/support-files/mysql.server stop
+
+/* 3) Open the terminal and type the next commands: */
+
+sudo mysqld_safe --skip-grant-tables
+
+/* 4) Open a new window to login on MYSQL withe the following commands*/
+
+Mysql -u root
+
+/* 5) Now we are going to change the PASSWORD !!! */
+
