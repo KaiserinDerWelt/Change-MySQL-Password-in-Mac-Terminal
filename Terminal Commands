@@ -16,3 +16,4 @@ Mysql -u root
 
 /* 5) Now we are going to change the PASSWORD !!! */
 
+UPDATE user SET authentication_string=‘PASSWORD’ WHERE user='root';
